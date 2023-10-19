@@ -1,0 +1,943 @@
+/*
+====================================
+large Screen - Others
+====================================
+*/
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav .nav-link {
+        margin-left: 20px;
+    }
+    /*=== about area start ===*/
+    .about-item3 h2 {
+        font-size: 58px;
+    }
+    .about-item3 ul {
+        margin: 0 -15px;
+    }
+    .about-item3 ul li {
+        padding: 0 15px;
+        font-size: 18px;
+    }
+    .about-item3 ul li div {
+        padding: 20px 10px;
+    }
+    /*=== ticket area start ===*/
+    .ticket-item2 ul {
+        min-height: 540px;
+    }
+    /*=== agenda area start ===*/
+    .agenda-item>h2 {
+        font-size: 56px;
+        margin-bottom: 80px;
+    }
+    .agenda-item-inner4 {
+        width: calc(100% - 140px);
+    }
+    .agenda-item-inner6 {
+        width: 140px;
+    }
+    .agenda-item-inner6 img {
+        margin-top: -70px;
+    }
+    /*=== get area start ===*/
+    .get-area {
+        background-size: 220px;
+    }
+    /*=== registration page start ===*/
+    .registration-item-inner2 {
+        padding-left: 20px;
+    }
+    .registration-item-inner2 h2 {
+        margin-bottom: 25px;
+    }
+    .registration-item-inner2 h2 img {
+        max-width: 180px;
+    }
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        padding-top: 20px;
+    }
+    .navbar-nav .nav-link {
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .banner-area-inner {
+        padding: 100px 0 120px;
+    }
+    .banner-item {
+        width: 50%;
+    }
+    .banner-item h2 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .banner-item-inner ul li {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .banner-item-inner2 ul {
+        padding-top: 25px;
+    }
+    .banner-item-inner2 ul li a {
+        font-size: 16px;
+        padding: 11px 16px;
+    }
+    .banner-item-inner2 ul li:nth-of-type(2) a {
+        padding: 11px 25px;
+    }
+    .banner-item2 {
+        width: 50%;
+    }
+    /*=== about area start ===*/
+    .about-item h2 {
+        font-size: 58px;
+    }
+    .about-item h2 img {
+        max-width: 60px;
+    }
+    .about-item2 h2 {
+        font-size: 32px;
+    }
+    .about-item3 h2 {
+        font-size: 52px;
+        margin-bottom: 70px;
+    }
+    .about-item3 ul li {
+        width: 33.333%;
+    }
+    /*=== explore area start ===*/
+    .explore-area {
+        padding: 63px 0 80px;
+        background: #FAF9F5;
+    }
+    .explore-item h2 {
+        font-size: 52px;
+        margin-bottom: 60px;
+    }
+    .explore-item-inner2 {
+        width: calc(100% - 300px);
+    }
+    .explore-item-inner2 p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
+    .explore-item-inner3 {
+        width: 300px;
+    }
+    /*=== ticket area start ===*/
+    .ticket-area {
+        padding-bottom: 150px;
+    }
+    .ticket-item h2 {
+        font-size: 55px;
+    }
+    .ticket-item p {
+        font-size: 36px;
+    }
+    .ticket-item p span {
+        font-size: 22px;
+    }
+    .ticket-item3-inner {
+        width: 300px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .ticket-item3-inner2 {
+        width: calc(100% - 300px);
+        padding-right: 20px;
+    }
+    .ticket-item3-inner3 h2 {
+        font-size: 26px;
+    }
+    .ticket-item3-inner3 span {
+        font-size: 14px;
+        padding: 5.5px 20px;
+    }
+    .ticket-item3-inner2 a {
+        padding: 14px 90px;
+    }
+    .ticket-item4 {
+        background-size: 480px;
+    }
+    /*=== agenda area start ===*/
+    .agenda-area {
+        padding: 70px 0 80px;
+    }
+    .agenda-item>h2 {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    .agenda-item-inner2 h2 {
+        font-size: 19px;
+    }
+    .agenda-item-inner4 {
+        width: calc(100% - 125px);
+    }
+    .agenda-item-inner5 h3 {
+        font-size: 19px;
+    }
+    .agenda-item-inner6 {
+        width: 125px;
+    }
+    .agenda-item-inner6 img {
+        margin-top: -70px;
+    }
+    .agenda-item-inner6 h3 {
+        font-size: 19px;
+    }
+    /*=== speaker area start ===*/
+    .speaker-area {
+        padding: 80px 0;
+    }
+    .speaker-item h2 {
+        font-size: 55px;
+        margin-bottom: 50px;
+    }
+    .speaker-item2 {
+        margin-bottom: 40px;
+    }
+    /*=== sponsor area start ===*/
+    .sponsor-area {
+        padding: 60px 0 80px;
+    }
+    .sponsor-item h2 {
+        font-size: 52px;
+        margin-bottom: 50px;
+    }
+    .sponsor-item-inner ul {
+        margin: 0 -10px 40px;
+    }
+    .sponsor-item-inner3 {
+        padding: 30px 0 60px;
+    }
+    /*=== testimonial area start ===*/
+    .testimonial-item h2 {
+        font-size: 55px;
+        margin-bottom: 50px;
+    }
+    .testimonial-item-inner2 p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .testimonial-item-inner2 h6 {
+        font-size: 18px;
+    }
+    .testimonial-carousel>div {
+        padding-bottom: 45px;
+    }
+    /*=== contact area start ===*/
+    .contact-area {
+        padding: 50px 0 90px;
+    }
+    .contact-item h2 {
+        font-size: 55px;
+        margin-bottom: 15px;
+    }
+    .contact-item2 {
+        background-size: 120px;
+    }
+    .contact-item2-inner2 p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contact-item4 h2 {
+        font-size: 46px;
+    }
+    .contact-item5 {
+        padding: 40px 22px 45px;
+    }
+    /*=== get area start ===*/
+    .get-area {
+        background-size: 200px;
+    }
+    /*=== footer area start ===*/
+    .footer-item ul li a {
+        font-size: 15px;
+    }
+    .footer-item ul li a img {
+        max-width: 130px;
+    }
+    /*=== registration page start ===*/
+    .registration-item-inner2 {
+        padding: 30px 15px;
+        padding-left: 15px;
+    }
+    .registration-item-inner2 h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .registration-item-inner2 h2 img {
+        max-width: 150px;
+    }
+    .registration-item-inner2 input,
+    .registration-item-inner2 select {
+        padding: 14px 16px;
+        margin-bottom: 20px;
+    }
+    /*=== trip area start ===*/
+    .trip-area {
+        padding: 20px 0 80px;
+    }
+    .trip-item h2 {
+        font-size: 55px;
+        margin-bottom: 60px;
+    }
+    .ticket-item3-inner4 a {
+        margin-top: 15px;
+    }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+
+@media screen and (max-width: 767px) {
+    .banner-area {
+        padding-top: 68px;
+    }
+    .navbar-nav {
+        padding-top: 20px;
+    }
+    .navbar-nav .nav-link {
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .banner-area-inner {
+        padding: 34px 0 96px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .banner-item {
+        max-width: 100%;
+        padding-top: 40px;
+    }
+    .banner-item h2 {
+        font-size: 32px;
+        text-align: center;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+    .banner-item-inner ul li {
+        font-size: 14px;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .banner-item-inner2 ul {
+        padding-top: 25px;
+        justify-content: center;
+    }
+    .banner-item-inner2 ul li a {
+        font-size: 15px;
+        padding: 11px 16px;
+    }
+    .banner-item-inner2 ul li:nth-of-type(2) a {
+        padding: 11px 25px;
+    }
+    /*=== about area start ===*/
+    .about-area {
+        padding: 56px 0 20px;
+    }
+    .about-item {
+        margin-bottom: 43px;
+    }
+    .about-item h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    .about-item h2 img {
+        margin-left: 23px;
+        max-width: 51px;
+    }
+    .about-item img {
+        max-width: 283px;
+    }
+    .about-item p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about-area-inner {
+        padding: 10px 0 25px;
+    }
+    .about-item2 {
+        margin-bottom: 30px;
+    }
+    .about-item2-inner {
+        padding-left: 20px;
+        margin-bottom: 22px;
+    }
+    .about-item2 h6 span {
+        margin-right: 20px;
+    }
+    .about-item2-inner2 {
+        padding-left: 20px;
+    }
+    .about-item2 h2 {
+        font-size: 24px;
+    }
+    .about-item3 h2 {
+        font-size: 48px;
+        margin-bottom: 43px;
+    }
+    .about-item3 h2 span {
+        display: block;
+    }
+    .about-item3 ul {
+        margin: 0 -18px;
+    }
+    .about-item3 ul li {
+        width: 50%;
+        padding: 0 18px;
+        font-size: 16px;
+    }
+    .about-item3 ul li div {
+        min-height: 157px;
+    }
+    /*=== explore area start ===*/
+    .explore-area {
+        padding: 30px 0 55px;
+    }
+    .explore-item h2 {
+        font-size: 48px;
+        line-height: 72px;
+        margin-bottom: 29px;
+    }
+    .explore-item h2 span {
+        display: block;
+    }
+    .explore-item-inner2 {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .explore-item-inner2 p {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 100%;
+        margin-bottom: 18px;
+    }
+    .explore-item-inner2 h6 {
+        font-size: 16px;
+    }
+    .explore-item-inner3 {
+        width: 100%;
+        padding-top: 29px;
+    }
+    /*=== conference area start ===*/
+    .conference-area {
+        padding: 29px 0 4px;
+    }
+    .conference-item img {
+        margin-bottom: 18px;
+    }
+    .conference-item h2 {
+        text-align: center;
+    }
+    /*=== ticket area start ===*/
+    .ticket-area {
+        padding: 45px 0 80px;
+        background-size: 100px;
+        background-position: 100% 104%
+    }
+    .ticket-item h2 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    .ticket-item p {
+        font-size: 16px;
+    }
+    .ticket-item p span {
+        font-size: 16px;
+    }
+    .ticket-item2:hover:after {
+        top: 11px;
+        left: 6px;
+    }
+    .ticket-item2 h4 {
+        font-size: 20px;
+    }
+    .ticket-item2 h4 small {
+        font-size: 14px;
+    }
+    .ticket-item2 ul {
+        min-height: 100%;
+        padding-bottom: 25px;
+    }
+    .ticket-item3:hover:after {
+        top: 11px;
+        left: 6px;
+    }
+    .ticket-item3 h4 {
+        font-size: 20px;
+    }
+    .ticket-item3 h4 small {
+        font-size: 14px;
+    }
+    .ticket-item3 ul {
+        min-height: 100%;
+        padding-bottom: 25px;
+    }
+    .ticket-item3-inner {
+        display: none;
+    }
+    .ticket-item3-state {
+        display: none;
+    }
+    .ticket-item3-inner2 {
+        min-height: 100%;
+        padding-bottom: 2px;
+    }
+    /*
+	.ticket-item3 {
+		display: none;
+	}
+*/
+    /*=== agenda area start ===*/
+    .agenda-area {
+        padding: 47px 0 35px;
+    }
+    .agenda-item>h2 {
+        font-size: 48px;
+        margin-bottom: 31px;
+    }
+    .agenda-item-inner {
+        display: none;
+    }
+    .agenda-item-inner3 {
+        display: none;
+    }
+    .agenda-item2 ul {
+        padding-top: 72px;
+    }
+    .agenda-item2 ul li {
+        font-size: 16px;
+        padding: 15px 0;
+        align-items: flex-start;
+    }
+    /*=== speaker area start ===*/
+    .speaker-area {
+        padding: 64px 0;
+    }
+    .speaker-item h2 {
+        font-size: 48px;
+        margin-bottom: 64px;
+    }
+    .speaker-area .row {
+        --bs-gutter-x: 20px;
+    }
+    .speaker-item2 {
+        margin-bottom: 30px;
+    }
+    .speaker-item2 img {
+        margin-bottom: 17px;
+    }
+    .speaker-item3 {
+        padding-top: 50px;
+    }
+    .speaker-item3 a {
+        font-size: 16px;
+        padding: 17px 60px;
+    }
+    /*=== sponsor area start ===*/
+    .sponsor-area {
+        padding: 30px 0 70px;
+    }
+    .sponsor-item h2 {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .sponsor-item-inner {
+        display: none;
+    }
+    .sponsor-item-inner3 a {
+        font-size: 16px;
+        padding: 17px 40px;
+    }
+    .sponsor-item-inner3 {
+        padding: 27px 0 36px;
+    }
+    .sponsor-item-inner5 {
+        display: block;
+    }
+    .sponsor-item-inner5 ul {
+        flex-wrap: wrap;
+        margin: 0 -16px;
+    }
+    .sponsor-item-inner5 ul li {
+        padding: 0 16px;
+    }
+    .sponsor-item-inner5 ul li:nth-of-type(1) a img {
+        max-width: 77px;
+    }
+    .sponsor-item-inner5 ul li:nth-of-type(2) a img {
+        max-width: 49px;
+    }
+    .sponsor-item-inner5 ul li:nth-of-type(3) a img {
+        max-width: 61px;
+    }
+    .sponsor-item-inner5 ul li:nth-of-type(4) a img {
+        max-width: 63px;
+    }
+    .sponsor-item-inner5 ul li:nth-of-type(5) a img {
+        max-width: 85px;
+    }
+    .sponsor-item-inner6 ul {
+        margin: 0 -6px;
+        padding-bottom: 0px;
+    }
+    .sponsor-item-inner6 ul li {
+        padding: 0 6px;
+        margin-bottom: 20px;
+    }
+    .sponsor-item-inner6 ul li:nth-of-type(1) a img {
+        max-width: 83px;
+    }
+    .sponsor-item-inner6 ul li:nth-of-type(2) a img {
+        max-width: 64px;
+    }
+    .sponsor-item-inner6 ul li:nth-of-type(3) a img {
+        max-width: 55px;
+    }
+    .sponsor-item-inner6 ul li:nth-of-type(4) a img {
+        max-width: 107px;
+    }
+    .sponsor-item-inner6 ul li:nth-of-type(5) a img {
+        max-width: 65px;
+    }
+    .sponsor-item-inner6 ul li:nth-of-type(6) a img {
+        max-width: 78px;
+    }
+    .sponsor-item-inner6 ul li:nth-of-type(7) a img {
+        max-width: 77px;
+    }
+    .sponsor-item-inner6 ul li:nth-of-type(8) a img {
+        max-width: 60px;
+    }
+    .sponsor-item-inner6 ul li:nth-of-type(9) a img {
+        max-width: 55px;
+    }
+    .sponsor-item-inner6 ul li:nth-of-type(10) a img {
+        max-width: 67px;
+    }
+    /*=== converge area start ===*/
+    .converge-area {
+        padding: 58px 0 90px;
+    }
+    .converge-item h2 {
+        font-size: 24px;
+        margin: 41px 0 20px;
+    }
+    .converge-item p {
+        margin-bottom: 40px;
+    }
+    /*=== testimonial area start ===*/
+    .testimonial-area {
+        padding: 45px 0;
+    }
+    .testimonial-item h2 {
+        font-size: 48px;
+        margin-bottom: 35px;
+    }
+    .testimonial-item-inner {
+        margin-bottom: 30px;
+    }
+    .testimonial-item-inner img {
+        width: 100%;
+    }
+    .testimonial-item-inner2 img {
+        max-width: 50px;
+    }
+    .testimonial-item-inner2 p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .testimonial-item-inner2 h6 {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .testimonial-carousel>div {
+        padding-bottom: 45px;
+    }
+    /*=== contact area start ===*/
+    .contact-area {
+        padding: 35px 0 52px;
+        background-image: none;
+    }
+    .contact-item h2 {
+        font-size: 48px;
+        margin-bottom: 13px;
+    }
+    .contact-item2 {
+        background-image: none;
+    }
+    .contact-item2-inner {
+        flex-direction: column-reverse;
+        padding-right: 12px;
+    }
+    .contact-item2-inner2 p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contact-item2-inner3 img:nth-of-type(1) {
+        display: none;
+    }
+    .contact-item2-inner3 img:nth-of-type(2) {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .contact-item3 {
+        padding-bottom: 40px;
+    }
+    .contact-item3 h2 {
+        font-size: 32px;
+        margin: 24px 0 50px;
+    }
+    .contact-item3 ul {
+        flex-wrap: wrap;
+        justify-content: start;
+        margin: 0 -20px;
+    }
+    .contact-item3 ul li {
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+    .contact-item3 ul li:nth-of-type(1) a img {
+        max-width: 104px;
+    }
+    .contact-item3 ul li:nth-of-type(2) a img {
+        max-width: 90px;
+    }
+    .contact-item3 ul li:nth-of-type(3) a img {
+        max-width: 71px;
+    }
+    .contact-item3 ul li:nth-of-type(4) a img {
+        max-width: 105px;
+    }
+    .contact-item3 ul li:last-of-type a img {
+        max-width: 73px;
+    }
+    .contact-item4 h2 {
+        font-size: 48px;
+        margin-bottom: 31px;
+        text-align: center;
+    }
+    .contact-item4 ul {
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .contact-item4 ul li a {
+        margin: 0 14px;
+    }
+    .contact-item5 {
+        padding: 40px 22px 49px;
+    }
+    .contact-item5 label {
+        font-size: 16px;
+    }
+    .contact-item5 input,
+    .contact-item5 textarea {
+        font-size: 16px;
+        padding: 15px 16px;
+        margin-bottom: 24px;
+    }
+    .contact-item5 button {
+        font-size: 16px;
+        padding: 17px;
+    }
+    /*=== get area start ===*/
+    .get-area {
+        background-size: 145px;
+        padding: 79px 0 69px;
+    }
+    .get-item h2 {
+        font-size: 24px;
+        margin-bottom: 49px;
+    }
+    .get-item form div {
+        width: calc(100% - 82px);
+        padding-right: 0px;
+        margin-right: -30px;
+    }
+    .get-item form div input {
+        padding: 14px 26px;
+        padding-right: 50px;
+    }
+    .get-item form button {
+        width: 112px;
+        padding: 14px;
+    }
+    /*=== footer area start ===*/
+    .footer-area {
+        padding: 29px 0 21px
+    }
+    .footer-item ul {
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-item ul li a {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    .footer-item ul li a img {
+        margin-bottom: 8px;
+    }
+    /*=== registration page start ===*/
+    .registration-item-inner {
+        width: 100%;
+    }
+    .registration-item-inner img {
+        display: none;
+    }
+    .registration-item-inner img:nth-of-type(2) {
+        display: block;
+    }
+    .registration-item-inner2 {
+        width: 100%;
+        padding: 24px 15px 50px;
+        padding-left: 15px;
+    }
+    .registration-item-inner2 form {
+        max-width: 100%;
+    }
+    .registration-item-inner2 h2 {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .registration-item-inner2 h2 img {
+        max-width: 167px;
+    }
+    .registration-item-inner2 label {
+        font-size: 14px;
+    }
+    .registration-item-inner2 input,
+    .registration-item-inner2 select {
+        font-size: 14px;
+        padding: 14px 17px;
+        margin-bottom: 31px;
+    }
+    .registration-item-inner2 select {
+        background-size: 13px;
+        background-position: calc(100% - 11px) 50%;
+    }
+    .form-group {
+        margin-bottom: 21px;
+    }
+    .form-group label {
+        font-size: 14px;
+    }
+    .form-group label:before {
+        width: 18px;
+        height: 18px;
+        flex: 0 0 18px;
+        margin-right: 9px;
+    }
+    .form-group input:checked+label:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 3px;
+        left: 6px;
+        width: 5px;
+        height: 10px;
+    }
+    .registration-item-inner2 p {
+        font-size: 14px;
+        margin-bottom: 21px;
+        line-height: 30px;
+    }
+    .registration-item-inner2 button {
+        padding: 13px;
+    }
+    /*=== trip area start ===*/
+    .trip-area {
+        padding: 10px 0 60px;
+    }
+    .trip-item h2 {
+        font-size: 48px;
+        margin-bottom: 60px;
+    }
+    .trip-carousel .owl-item.active.center .trip-item-inner {
+        transform: translateY(18px);
+    }
+    /*=== hotel area start ===*/
+    .hotel-area {
+        padding-top: 60px;
+    }
+    .hotel-area .trip-item h2 {
+        margin-bottom: 60px;
+        line-height: 72px;
+    }
+    .hotel-area .trip-item h2 span {
+        display: block;
+    }
+    .hotel-item ul {
+        padding-bottom: 20px;
+        margin-bottom: 37px;
+    }
+    .hotel-item ul li {
+        height: 60px;
+    }
+    .hotel-item ul li:last-of-type a {
+        width: 190px;
+    }
+    .tab-content {
+        padding-bottom: 0px;
+    }
+    .hotel-item2 {
+        margin-bottom: 45px;
+    }
+    .hotel-item2>img {
+        margin-bottom: 22px;
+    }
+    .hotel-item2 h2 {
+        margin-bottom: 22px;
+    }
+    .ticket-item3-inner2 {
+        width: initial;
+    }
+    .ticket-item3 {
+        padding: 30px 15px;
+        text-align: center;
+    }
+    .ticket-item3-inner2 ul li span {
+        margin: 9px 5px 0 0;
+    }
+    .ticket-item3-inner2 {
+        padding-right: 0;
+    }
+    .ticket-item3-inner2 a {
+        padding: 16px 85px;
+    }
+    .ticket-item3-inner4 {
+        text-align: center;
+        display: block;
+    }
+    .ticket-item3-inner3 h2 {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .ticket-item3-inner3 {
+        display: initial;
+    }
+    .ticket-item3-inner4 a {
+        margin-top: 15px;
+    }
+    .ticket-item3 {
+        margin-bottom: 32px;
+        margin-top: 0;
+    }
+    .ticket-item3-inner2 ul li {
+        text-align: left;
+    }
+}
